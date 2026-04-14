@@ -1,0 +1,21 @@
+{
+  "schemaVersion": 1,
+  "id": "rivererosion",
+  "version": "${version}",
+  "name": "River Erosion",
+  "description": "Simple configurable river-bank erosion with editable meander parameters.",
+  "authors": ["Codex"],
+  "license": "MIT",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.example.rivererosion.RiverErosionMod"
+    ]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.5",
+    "minecraft": "~1.20.1",
+    "java": ">=17",
+    "fabric-api": "*"
+  }
+}
